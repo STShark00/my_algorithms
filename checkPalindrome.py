@@ -1,5 +1,7 @@
 def checkPalindrome(inputString):
     
+    return inputString == inputString[::-1]
+
     ''' Alternative Solution'''
     '''
     length = len(inputString)
@@ -9,5 +11,3 @@ def checkPalindrome(inputString):
             return False
     return True
     '''
-    
-    return inputString == inputString[::-1]
